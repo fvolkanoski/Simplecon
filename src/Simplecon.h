@@ -25,13 +25,24 @@ SOFTWARE.
 #ifndef SIMPLECON_H
 #define SIMPLECON_H
 
-class Simplecon
+namespace Simplecon
 {
-public:
-	Simplecon();
-	~Simplecon();
-private:
-protected:
-};
+	class Server
+	{
+	public:
+		Server();
+		~Server();
+	private:
+	protected:
+	};
 
+	class Client
+	{
+	public:
+		Client();
+		~Client();
+	private:
+	protected:
+	};
+}
 #endif

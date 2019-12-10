@@ -24,12 +24,22 @@ SOFTWARE.
 
 #include "Simplecon.h"
 
-Simplecon::Simplecon()
+Simplecon::Server::Server()
 {
 
 }
 
-Simplecon::~Simplecon()
+Simplecon::Server::~Server()
+{
+
+}
+
+Simplecon::Client::Client()
+{
+
+}
+
+Simplecon::Client::~Client()
 {
 
 }
